@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Wk5 Demo Data passing test</string>
     <string name="passint">PASS INTEGER VALUE TO 2ND ACTIVITY</string>
-    <string name="passchar">PASS CHARACTER VALUE TO 2ND ACTIVTY</string>
+    <string name="passchar">PASS CHARACTER VALUE TO 2ND ACTIVITY</string>
     <string name="textView">PASS DOUBLE VALUE TO SECOND ACTIVITY</string>
+    <string name="value">value</string>
+    <string name="answer">answer</string>
 </resources>

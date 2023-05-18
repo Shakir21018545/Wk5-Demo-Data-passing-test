@@ -25,16 +25,16 @@ public class MainActivity extends AppCompatActivity {
         btnPassInteger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                intent.putExtra("value", 1);
+                Intent intent = new Intent(MainActivity.this, AnswerActivity.class);
+                intent.putExtra("answer", "1");
                 startActivity(intent);
             }
         });
         btnPassChar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
-                intent.putExtra("value", 'a');
+                Intent intent = new Intent(MainActivity.this, AnswerActivity.class);
+                intent.putExtra("answer", "a");
                 startActivity(intent);
             }
         });
@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FourthActivity.class);
+                Intent intent = new Intent(MainActivity.this, AnswerActivity.class);
+                intent.putExtra("answer", "99.99");
                 startActivity(intent);
             }
         });
